@@ -1,0 +1,110 @@
+{
+    "animals": 
+    [ 
+        {
+            "name": "Surinam Toad",
+            "type": "Amphibian",
+            "number": "7",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_surinam-toad-web.jpg"
+        },
+        {
+            "name": "Panamanian Golden Frog",
+            "type": "Amphibian",
+            "number": "10",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_golden-frog-katie-gregory.jpg"
+        },
+        {
+            "name": "Hellbender",
+            "type": "Amphibian",
+            "number": "13",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_hellbender-sm.jpg"
+        },
+        {
+            "name": "Aldabra Tortoise",
+            "type": "Reptile",
+            "number": "3",
+            "isCarnivore": false,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_koraline_-_aldabra_-_katie_gregory.jpg"
+        },
+        {
+            "name": "Alligator Snapping Turtle",
+            "type": "Reptile",
+            "number": "6",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_alligator-snapping-turtle.jpg"
+        },
+        {
+            "name": "Galapagos Tortoise",
+            "type": "Reptile",
+            "number": "9",
+            "isCarnivore": false,
+            "imageURL": "https://www.speakcdn.com/assets/2147/tortoise6.jpg"
+        },
+        {
+            "name": "Blue-billed Curassow",
+            "type": "Birds",
+            "number": "1",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_curassow-1.jpg"
+        },
+        {
+            "name": "Rhinoceros Hornbill",
+            "type": "Birds",
+            "number": "5",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_rhinohornbill1.jpg"
+        },
+        {
+            "name": "Snowy Owl",
+            "type": "Birds",
+            "number": "10",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_snowyowl1.jpg"
+        },
+        {
+            "name": "Red Panda",
+            "type": "Mammals",
+            "number": "5",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_redpanda4.jpg"
+        },
+        {
+            "name": "Ring Tailed Lemur",
+            "type": "Mammals",
+            "number": "7",
+            "isCarnivore": false,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_ringtailedlemur1.jpg"
+        },
+        {
+            "name": "White-Cheeked Gibbon",
+            "type": "Mammals",
+            "number": "11",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_whitecheekedgibbon3.jpg"
+        },
+        {
+            "name": "Bluehead Wrasse",
+            "type": "Fish",
+            "number": "6",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_bluehead-wrasse-web.jpg"
+        },
+        {
+            "name": "Lined Seahorse",
+            "type": "Fish",
+            "number": "2",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_lined-seahorse.jpg"
+        },
+        {
+            "name": "Piranha",
+            "type": "Fish",
+            "number": "50",
+            "isCarnivore": true,
+            "imageURL": "https://www.speakcdn.com/assets/2147/12_piranha2.jpg"
+        }
+    ]
+}
