@@ -21,5 +21,14 @@ body {
 }
 
 .animal-image {
-    width: 400px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
 }
