@@ -52,12 +52,32 @@ const addEscapedEventListeners = () => {
     // animalEscaped();
 };
 
-const animalEscaped = () => {  // activates two functions and turns buttons red or green
-
+const animalEscaped = (e) => {  // activates two functions and turns buttons red or green
+    const badAnimalButtonContainer = e.target.parentNode;
     showCarnivores();
     showVegetables();
+    showFoundButton(badAnimalButtonContainer);  // will have single input--escapee
 };
 
+const showFoundButton = (buttonContainer) => {
+    buttonContainer.innerHTML = `<button id="found">Found</button>`;
+    initializeFoundButton();
+};
+
+const initializeFoundButton = () => {
+    console.log();
+    const foundButton = document.getElementById("found");
+    foundButton.addEventListener('click', () => {
+        // need to loop through all the cards
+        const animals = document.getElementsByClassName('animal');
+        for(let m=0; m<animals.length; m++) {
+            animals[m].children[3].innerHTML = `<button class="escape">Escaped</button>`;
+            animals[m].classList.remove("green");
+            animals[m].classList.remove("red");
+        }
+        addEscapedEventListeners();
+    })
+}
 const showCarnivores = () => {
     const carnivores = document.getElementsByClassName("carnivore");
     for(let j=0; j<carnivores.length; j++) {
@@ -65,11 +85,26 @@ const showCarnivores = () => {
         carnivores[j].classList.add('red');
     }
 };
+
+const initializeEatmeButtons = () => {
+    const eatMeButtons = document.getElementsByClassName("eat-me");
+    for(let n = 0; n<eatMeButtons.length; n++) {
+        eatMeButtons[n].addEventListener('click', (itsAlreadyBeenEaten) => {
+        
+        })
+    }
+}
+const itsAlreadyBeenEaten = (e) => {
+    const currentNumber = e.target.parentNode.parentNode.children[1].innerHTML;
+    const newNumber = currentNumber*1 -1;
+    e.target.parentNode.parentNode.children[1].innerHTML = newNumber;
+}
+
 const showVegetables = () => {
     const vegetables = document.getElementsByClassName("vegetable");
     for(let j=0; j<vegetables.length; j++) {
         // the below modifies the innerHTML of the button
-        vegetables[j].children[3].innerHTML = `<button>EAT ME!!!</button>`;
+        vegetables[j].children[3].innerHTML = `<button class="eat-me">EAT ME!!!</button>`;
         vegetables[j].classList.add('green');
     }
 };
